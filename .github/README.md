@@ -34,3 +34,35 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+#### After Install
+Always run a `:checkhealth` to validate your environment is good to go.
+
+- Install [LazyGit](https://github.com/jesseduffield/lazygit)
+- Install ruby neovim gem
+```
+gem install neovim
+```
+- Install nodeJS neovim module
+```
+npm install -g neovim
+```
+- Install python3-pip3 and module
+```
+apt install python3-pip
+pip install --user neovim
+```
+- TSUpdate and TSInstall these inside nvim. If asked just re-install `vim`
+```
+:TSInstall c help lua vim
+:TSUpdate
+```
+- Always `Check` `Update` and `Clean` using `Mason`
+```
+:Mason
+```
+- Rember to pull the latest `AstroNvim` master periodically
+```
+cd ~/.config/nvim && git pull
+cd ~/.config/nvim/lua/user/ && git pull
+```
