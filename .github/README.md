@@ -17,16 +17,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Clone the user config repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone github.com/arian-amador/astronvim_config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
@@ -66,3 +60,6 @@ pip install --user neovim
 cd ~/.config/nvim && git pull
 cd ~/.config/nvim/lua/user/ && git pull
 ```
+
+### Video Tutorial
+[Neovim With AstroNvim | Your New Advanced Development Editor](https://www.youtube.com/watch?v=GEHPiZ10gOk)
