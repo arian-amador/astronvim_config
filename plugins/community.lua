@@ -3,7 +3,6 @@ return {
 
   -- Color Schemes
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.tokyonight" },
 
   -- Lang Packs
   { import = "astrocommunity.pack.go" },
